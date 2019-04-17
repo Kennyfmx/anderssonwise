@@ -368,7 +368,7 @@ em {
   font-size: 12px;
   letter-spacing: 1px;
   font-family: "HelveticaNeueCyr-Thin", Helvetica, Geneva, sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   color: #777;
 }
 @media screen and (max-width: 600px) {
