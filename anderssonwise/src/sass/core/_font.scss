@@ -1,0 +1,20 @@
+@font-face {
+	font-family: MinionPro-Regular;
+	src: url(../fonts/MinionPro/MinionPro-Regular.ttf);
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face {
+	font-family: MinionPro-Medium;
+	src: url(../fonts/MinionPro/MinionPro-Medium.ttf);
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: HelveticaNeueCyr-Thin;
+	src: url(../fonts/Helvetica_Neue/HelveticaNeueCyr-Thin.otf);
+	font-style: normal;
+	font-weight: 200;
+}
+$main-font: MinionPro-Regular, MinionPro-Medium, sans-serif;
+$secondary-font: "HelveticaNeueCyr-Thin", Helvetica, Geneva, sans-serif;
