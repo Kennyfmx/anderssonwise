@@ -1,0 +1,57 @@
+.item-sharing {
+	margin-bottom: 50px;
+	clear: both;
+		@media screen and (max-width: 600px) {
+			margin-bottom: 30px;
+		}
+   	    .read-more {
+		    display: inline-block;
+		    padding-left: 22px;
+		    padding-right: 12px;
+		    margin-right: 10px;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    font-size: 12px;
+	    	line-height: 26px;
+		    letter-spacing: 0;
+		    color: #555;
+		    background: #e8e8e8 url(../img/source_link_arrow.png) no-repeat 8px center;
+		    -webkit-transition: 0.3s;
+		    -moz-transition: 0.3s;
+		    -o-transition: 0.3s;
+		    -ms-transition: 0.3s;
+		    transition: 0.3s;
+				@media screen and (max-width: 700px) {
+				    margin-right: 0;
+				    line-height: 15px;
+				    padding-top: 8px;
+				    padding-bottom: 7px;
+				}
+			    &:hover {
+			    	background-color: #d8d8d8;
+	    			color: #333;
+			    }
+	    }
+		.social-share {
+		    display: inline-block;
+		    width: 26px;
+		    text-decoration: none;
+		    margin-right: 2px;
+		    color: #fff;
+		    background: #777;
+		    text-align: center;
+		    font-size: 13px;
+		    line-height: 26px;
+		    letter-spacing: 0;
+		    text-transform: lowercase;
+		    font-family: Verdana, sans-serif;
+		    -webkit-transition: 0.3s;
+		    -moz-transition: 0.3s;
+		    -o-transition: 0.3s;
+		    -ms-transition: 0.3s;
+	    	transition: 0.3s;
+	    	&:hover {
+	    		background-color: #555;
+	    	}
+	    }
+}
