@@ -1,0 +1,77 @@
+.thumbs-holder {
+	float: left;
+    margin-right: 34px;
+    margin-top: 0;
+    margin-left: 232px;
+    padding-bottom: 53px;
+	    @media screen and (max-width: 600px) {
+	    	margin-left: 20px;
+		    padding-bottom: 20px;
+		    margin-right: 0;
+		}
+}
+
+.photo__block {
+    display: block;
+    position: relative;
+	width: 170px;
+    height: 170px;
+    float: left;
+    overflow: hidden;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background: #262626;
+	    @media screen and (max-width: 600px) {
+		    width: 134px;
+		    height: 134px;
+		}
+	.project__photo {
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: 0;
+		    @media screen and (max-width: 600px) {
+			    width: 134px;
+			}
+	}
+	.project__photo__link {
+		    display: flex;
+		    flex-direction: column;
+	    	width: auto;
+		    height: inherit;
+		    padding: 0 10px;
+		    top: 0;
+		    left: 0;
+		    justify-content: center;
+		    text-align: center;
+		    text-decoration: none;
+		    color: #fff;
+		    font-size: 18px;
+		    text-transform: uppercase;
+		    letter-spacing: 2px;
+		    background-color: #000;
+		    opacity: 0;
+		    -webkit-transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+		    -moz-transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+		    -o-transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+		    -ms-transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+		    transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+		    position: relative;
+		    z-index: 1;
+				@media screen and (max-width: 600px) {
+				    font-size: 14px;
+				    line-height: 16px;
+				    text-indent: -9999px;
+				}
+			    &:hover {
+			    	opacity: 0.8;
+			    }
+			.photo__link__span {
+			    font-size: 10px;
+			    line-height: 15px;
+			    font-family: $secondary-font;
+			    margin-top: 15px;
+			    display: block;
+			}
+	    }
+}
