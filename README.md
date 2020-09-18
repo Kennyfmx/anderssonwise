@@ -1,14 +1,14 @@
 # Final HTML/CSS project. 
 
-**Home page
+**Home page**
 
 https://kennyfmx.github.io/anderssonwise/public/home.html
 
-**Projects page
+**Projects page**
 
 https://kennyfmx.github.io/anderssonwise/public/projects.html
 
-**News page
+**News page**
 
 https://kennyfmx.github.io/anderssonwise/public/news.html
 
