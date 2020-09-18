@@ -1,4 +1,4 @@
-# Final HTML/CSS project:
+# Final HTML/CSS project (SASS):
 *Adukar IT courses*
 
 **Home page**
